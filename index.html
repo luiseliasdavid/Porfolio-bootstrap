@@ -30,13 +30,16 @@
     />
     <!--google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
       rel="stylesheet"
-    />
-  </head>
-  <body>
+      />
+      
+    </head>
+    <body>
+    
     <!-- Nav bar -->
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
@@ -58,14 +61,13 @@
               src="images/icono.png"
               width="50"
               alt="Logo de la página web"
-            />
-          </a>
+              />
+            </a>
           <ul
             class="navbar-nav d-flex justify-content-center align-items-center"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi"
-                >Sobre mí</a
+              
               >
             </li>
             <li class="nav-item">
@@ -82,6 +84,7 @@
     <section class="hero align-items-strech">
       <div class="hero-principal">
         <img
+        width="50"
           class="hero-imagen-desarrollador rounded-circle"
           src="./images/fotoPerfil.jpg"
           alt="foto perfil Luis David"
@@ -99,9 +102,133 @@
      <section class="sobre-mi seccion-oscura">
       <div class="contenedor">
         <h2 class="seccion-titulo texto-blanco">Conoce a Luis David</h2>
-        <p class="seccion-texto">Quisque ac elementum neque, eu blandit nunc. Duis ligula justo, tristique in erat semper, consequat pulvinar nunc. Pellentesque sed tellus non dolor suscipit interdum. Praesent ac mi tincidunt, aliquet nunc sed, feugiat turpis. Nam auctor mattis commodo. Cras eros ligula, consectetur ac elit vitae, consectetur fringilla leo. Nullam elementum non dolor non pellentesque.</p>
+        <p class="seccion-texto">¡Hola! Soy Luis, soy Desarrollador Web Full Stack. Me apasiona resolver problemas y aprender nuevas tecnologías.
+          He trabajado en proyectos grupales de e-comerce utilizando React, redux, Node, Sequalize ,PostgreSQL, Firebase, entro otros.
+          Actualmente buscando empleo en modalidad remoto.</p>
       </div>
      </section>
+ <!-- Experiencia -->
+ <section class="experiencia seccion-clara">
+  <div class="container text-center">
+    <div class="row">
+      <!-- Desarrollo Web -->
+      <div class="columna col-12 col-md-6">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Desarrollo Web</p>
+        <p>diseñar, crear y mantener sitios aplicaciones web </p>
+        <div class="badges-contenedor">
+          <span class="badge bg-primary">HTML</span>
+          <span class="badge bg-primary">CSS</span>
+          <span class="badge bg-primary">JavaScript</span>
+          <span class="badge bg-primary">React</span>
+        </div>
+      </div>
+      <div class="columna col-12 col-md-6">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Estudiante</p>
+        <p>Graduado en Henry bootcamp donde aprendi el manejo de estas tecnologias: 
+         JavaScript | React | Redux | Express | Sequelize | PostgreSQL | NodeJS
+          </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Proyectos -->
+<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+  <h2 class="seccion-titulo texto-negro">Mis proyectos individuales</h2>
+  <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+  <!-- Galeria de Proyectos -->
+  <div class="container text-center proyectos-contenedor">
+    <div class="row">
+      <!-- Proyecto 1 -->
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="proyecto">
+          <img src="./images/Captura de pantalla (204).png" width="300rem" alt="Proyecto 1">
+          <div class="overlay">
+            <p>Movies</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Proyecto 2 -->
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="proyecto">
+          <img src="./images/pi-videogames.png" alt="Proyecto 1" width="300rem">
+          <div class="overlay">
+            <p>Videogames</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://app-videogames-3i39jc4ih-luiseliasdavid.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</section>
+<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+  <h2 class="seccion-titulo texto-negro">Mis proyectos Grupales</h2>
+  <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+  <!-- Galeria de Proyectos -->
+  <div class="container text-center proyectos-contenedor">
+    <div class="row">
+      <!-- Proyecto 1 -->
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="proyecto">
+          <img src="./images/villetera-virtual.png" width="300rem" alt="Proyecto 1">
+          <div class="overlay">
+            <p>Villetera virtual</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/luiseliasdavid/Skill-Up-React" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://skill-up-react-eta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Proyecto 2 -->
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="proyecto">
+          <img src="./images/Captura de pantalla (206).png" width="300rem" alt="Proyecto 2">
+          <div class="overlay">
+            <p>E-comerce</p>
+            <div class="iconos-contenedor">
+              <a href="https://github.com/luiseliasdavid/PF-E-Comerce-Arcane" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://arcanesneakers.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-laptop"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+  <a href="https://github.com/luiseliasdavid" target="_blank" rel="noopener noreferrer">
+    <button type="button" class="btn btn-info">
+      Ver más proyectos
+      <i class="bi bi-arrow-right-circle-fill"></i>
+    </button>
+  </a>
+</section>
+
+
+
+
+
 
     <!-- bootstrap javascript -->
     <script
